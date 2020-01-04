@@ -1,0 +1,19 @@
+{
+  "name": "BTC-Tracker",
+  "version": "1.0.0",
+  "description": "Bitcoin rate tracker",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron-packager . BTC-Tracker --platform=win32> --arch=ia32 --icon=assets/icons/win/icon.ico "
+  },
+  "author": "Rodger Kumwanje",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-nightly": "^9.0.0-nightly.20200101",
+    "electron-packager": "^14.1.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
